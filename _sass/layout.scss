@@ -1,0 +1,25 @@
+body {
+    font-family: "Cardo";
+}
+
+.page-content {
+  min-height: calc(100vh - 165px);
+}
+
+.wrapper {
+  width: 65%;
+  margin: 10px auto 50px auto;
+}
+
+.post-wrapper {
+  margin-top: 50px;
+}
+
+.post-title {
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+.post-subtitle {
+  margin-top: 5px;
+}

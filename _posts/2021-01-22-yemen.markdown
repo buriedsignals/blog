@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Yemen, and the Middle Eastern Cold War"
+date:   2021-01-22 13:33:22 +0100
+category: journalism
+contributor: "ACLED"
+interactive: true 
+description: "On the proxy war in Yemen."
+---
+Lorem ipsum.
