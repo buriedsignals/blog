@@ -140,7 +140,7 @@ function dragEnded(d) {
             <h2>{{ post.title }}</h2>
          </a>
          <div class="article-contributors"> {{ post.contributor }} </div>
-         <div class="article-description"> {{ post.description }} <a href="{{ post.url }}">Continue reading...</a></div>
+         <div class="article-description"> {{ post.description }} <a href="{{ post.url }}">Coming soon...</a></div>
       </div>
    {% endfor %}
 </div>
