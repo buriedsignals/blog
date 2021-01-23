@@ -9,7 +9,7 @@ permalink: /about/
    const bounds = document.getElementById("d3-header");
    var svg = d3.select(bounds).append('svg');
    var width = bounds.getBoundingClientRect().width;
-   var height = 230;
+   var height = 250;
 
     svg.attr('width', width);
     svg.attr('height', height);
@@ -49,7 +49,7 @@ permalink: /about/
 ## Who, me?
 I’m a creative producer and aspiring visual journalist, occasionally taking on consulting work for companies and non-profits - you can read more about that [here](/consulting).
 I’m a co-founder of the non-profit parkour academies [Wallrunners](wallrunners.org). Past gigs have found me working with Red Bull, Immersive Garden, North Kingdom as
-a producer or content creator. I've made [documentaries](redbull.com/wallrunners) and [films](vimeo.com/buriedsignals/between). 
+a producer or content creator. I started out by making [documentaries](redbull.com/wallrunners) and [films](https://vimeo.com/145770250). 
 
 Feel free to start a conversation anytime, I'm on Telegram (@buriedsignals) and [Twitter](twitter.com/buriedsignals).
 
@@ -64,7 +64,7 @@ fiction and philosophy essays obviously reflect my own views.
 Someday perhaps these essays will contribute in the struggle against disinformation, in the meantime I take great pleasure in 
 the daily pursuit of truth and progress in the craft.
 
-To conclude, here's a brief manifesto for these essays :
+A self-imposed manifesto for these essays :
 - Communicate in a clear and concise manner
 - Seek to understand the opposing viewpoint and give readers access to both perspectives
 - Fight stereotypes, fear-mongering and bipartisan polarisation

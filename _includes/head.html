@@ -2,10 +2,20 @@
     <meta charset="utf-8">
     <title>Buried Signals</title>
     <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
     {% if page.title == null %}
         <script src="./d3.v5.js"></script>
     {% elsif page.title == "About" %}
         <script src="../d3.v5.js"></script>
     {% endif %}
+    <script defer src="../css/fontawesome-free/js/brands.js"></script>
+    <script defer src="../css/fontawesome-free/js/solid.js"></script>
+    <script defer src="../css/fontawesome-free/js/fontawesome.js"></script>
 </head>
