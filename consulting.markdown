@@ -4,6 +4,8 @@ title: Consulting
 permalink: /consulting/
 ---
 
+# Consulting
+
 Hi there,
     
 For the past four years I’ve been dedicating a day a week to helping businesses and non-profits build content production and 

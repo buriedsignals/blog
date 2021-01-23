@@ -6,12 +6,13 @@
   <body>
     {% include navbar.html %} 
     <div class="page-content">
-        <div class="wrapper">
-          {% if page.layout == "post" %}
-          <h1 class="post-title">{{ page.title }}</h1>
-          {% endif %}
-          {{ content }}
-        </div>
+      {% if page.layout == "default" %}
+      <div class="page-wrapper">
+        {{ content }}
+      </div>
+      {% else %}
+        {{ content }}
+      {% endif %}
     </div>
 
     {% include footer.html %}

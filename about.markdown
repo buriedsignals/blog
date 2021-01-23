@@ -9,7 +9,7 @@ permalink: /about/
    const bounds = document.getElementById("d3-header");
    var svg = d3.select(bounds).append('svg');
    var width = bounds.getBoundingClientRect().width;
-   var height = 250;
+   var height = 230;
 
     svg.attr('width', width);
     svg.attr('height', height);
@@ -32,7 +32,7 @@ permalink: /about/
               .angle(function(a) { return a; })
               .radius(function(a) {
                 var t = d3.now() / 1000;
-                return width / 10 + Math.cos(a * 8 - i * 2 * Math.PI / 3 + t) * Math.pow((1 + Math.cos(a - t)) / 2, 3) * width / 50;
+                return width / 8 + Math.cos(a * 8 - i * 2 * Math.PI / 3 + t) * Math.pow((1 + Math.cos(a - t)) / 2, 3) * width / 50;
               });
         });
 
@@ -46,27 +46,27 @@ permalink: /about/
 
 # About
 
-## Who am I?
-I’m a creative producer and aspiring visual journalist, I do consulting work for companies and non-profits. Read more about that here.
-I’m a co-founder of the non-profit parkour academies [Wallrunners](wallrunners.org).
-I’ve also made [documentaries](redbull.com/wallrunners) and [films](vimeo.com/buriedsignals/between). 
-Past gigs have found me working with Red Bull, Immersive Garden, North Kingdom and a number of [consulting](teresamonroe.com) [projects](life.seedstars.com). 
-Challenge me anytime, I'm on Telegram (@buriedsignals) and [Twitter](twitter.com/buriedsignals).
+## Who, me?
+I’m a creative producer and aspiring visual journalist, occasionally taking on consulting work for companies and non-profits - you can read more about that [here](/consulting).
+I’m a co-founder of the non-profit parkour academies [Wallrunners](wallrunners.org). Past gigs have found me working with Red Bull, Immersive Garden, North Kingdom as
+a producer or content creator. I've made [documentaries](redbull.com/wallrunners) and [films](vimeo.com/buriedsignals/between). 
 
-## Manifesto
-I’m an advocate of [Gonzo journalism](en.wikipedia.org/wiki/Gonzo_journalism) as a framework to abstain from false claims of objectivity, 
-complemented with an intent to [keep my identity small](www.paulgraham.com/identity.html) 
-(inspired by [Kevin Simler’s](meltingasphalt.com/about/) manifesto). 
-I’ve taken the [pro-truth pledge](www.protruthpledge.org/) and I vow to work under the tenets of Jim Lehrer’s 
+Feel free to start a conversation anytime, I'm on Telegram (@buriedsignals) and [Twitter](twitter.com/buriedsignals).
+
+## Opinions on journalism
+Advocating [Gonzo journalism](en.wikipedia.org/wiki/Gonzo_journalism) as a framework to abstain from false claims of objectivity. 
+Also trying to [keep my identity small](www.paulgraham.com/identity.html) (inspired by [Kevin Simler’s](meltingasphalt.com/about/) manifesto). 
+
+I am committed to working within the tenets of Jim Lehrer’s 
 [journalism principles](www.pbs.org/newshour/politics/jim-lehrer-in-his-own-words). My personal opinions are clearly labeled, 
-fiction and philosophy essays reflect my own views.
+fiction and philosophy essays obviously reflect my own views.
 
-Someday perhaps these essays will contribute in the struggle against disinformation and hold the powerful accountable, in the meantime I take great pleasure in the daily pursuit of truth and progress in the craft.
+Someday perhaps these essays will contribute in the struggle against disinformation, in the meantime I take great pleasure in 
+the daily pursuit of truth and progress in the craft.
 
-As a creed for these essays :
+To conclude, here's a brief manifesto for these essays :
 - Communicate in a clear and concise manner
-- Use the medium best suited to the task
-- Challenge myself to understand and give readers access to different views
+- Seek to understand the opposing viewpoint and give readers access to both perspectives
 - Fight stereotypes, fear-mongering and bipartisan polarisation
 - Controversy for it’s own sake is entertainment
 - My writing should and can be challenged
@@ -74,3 +74,8 @@ As a creed for these essays :
 - Curate theoretical or operational solutions to the problem
 - Sources are verified and always accessible
 - Privacy matters, analytics and cookies on this site are non-invasive
+
+<div class="pro-truth-logo">
+    <a href="http://ProTruthPledge.org"><img style="width: 100px; height: 100px;" src="https://www.protruthpledge.org/hotlink-ok/ptpBacked.gif"></a><br>
+    I signed the <a href="http://ProTruthPledge.org">Pro-Truth Pledge:</a><br>please hold me accountable.
+</div>

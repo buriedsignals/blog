@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<div class="post-subtitle">{{ page.date | date: "%-d %B %Y" }}, in collaboration with {{ page.contributor }}.</div>
 <div class="post-wrapper">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-subtitle">{{ page.date | date: "%-d %B %Y" }}, in collaboration with {{ page.contributor }}.</div>
     {{ content }}
 </div>
 
