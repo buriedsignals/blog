@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}css/style.css">
     <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
     {% if page.title == null %}
-    <script src="./d3.v5.js"></script>
+        <script src="./d3.v5.js"></script>
+    {% elsif page.title == "About" %}
+        <script src="../d3.v5.js"></script>
     {% endif %}
 </head>

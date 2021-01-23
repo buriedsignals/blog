@@ -1,11 +1,6 @@
----
-layout: default
----
-<div id="d3-header">
-   <script type="text/javascript">
-   const bounds = document.getElementById("d3-header");
-   var w = 500;
-   var h = 250;
+
+var w = 500;
+var h = 250;
 
 //Original data
 var dataset = {
@@ -24,33 +19,16 @@ var dataset = {
     { source: 5, target: 8 },
     { source: 5, target: 9 },
     { source: 6, target: 7 },
-    { source: 6, target: 10 },
     { source: 7, target: 8 },
-    { source: 7, target: 5 },
     { source: 8, target: 9 },
-    { source: 8, target: 10 },
     { source: 8, target: 1 },
     { source: 10, target: 9 },
-    { source: 10, target: 8 },
     { source: 11, target: 9 },
     { source: 12, target: 11 },
     { source: 13, target: 12 },
     { source: 14, target: 13 },
     { source: 15, target: 12 },
-    { source: 16, target: 9 },
-    { source: 17, target: 16 },
-    { source: 17, target: 15 },
-    { source: 17, target: 14 },
-    { source: 18, target: 17 },
-    { source: 18, target: 19 },
-    { source: 19, target: 20 },
-    { source: 19, target: 12 },
-    { source: 19, target: 13 },
-    { source: 20, target: 21 },
-    { source: 20, target: 22 },
-    { source: 20, target: 23 },
-    { source: 21, target: 22 },
-    { source: 22, target: 23 }
+    { source: 16, target: 8 }
     ]
 };
 
@@ -61,6 +39,7 @@ var force = d3.forceSimulation(dataset.nodes)
             .force("center", d3.forceCenter().x(w/2).y(h/2));
 
 var colors = d3.scaleOrdinal(d3.schemeBlues[9]);
+const bounds = document.getElementById("d3-header");
 //Create SVG element
 var svg = d3.select(bounds)
         .append("svg")
@@ -119,33 +98,3 @@ function dragEnded(d) {
     d.fx = null;
     d.fy = null;
 }
-   </script>
-</div>
-<div class="articles-wrapper">
-   <h4>Visual experiments in journalism and fiction.</h4>
-   <hr class="soft-separator">
-   {% for post in site.posts %}
-      <div class="article-list-item">
-         <div class="article-labels">
-            {% if post.interactive %}
-               <div class="article-tag">
-                  <span>interactive</span>
-               </div>
-            {% endif %}
-               <div class="article-tag">
-                  <span>{{ post.category }}</span>
-               </div>
-         </div>
-         <a href="{{ post.url }}">
-            <h2>{{ post.title }}</h2>
-         </a>
-         <div class="article-contributors"> {{ post.contributor }} </div>
-         <div class="article-description"> {{ post.description }} <a href="{{ post.url }}">Continue reading...</a></div>
-      </div>
-   {% endfor %}
-</div>
-
-
-
-
-
