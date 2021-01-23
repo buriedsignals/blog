@@ -22,8 +22,5 @@ I’m always happy to meet people over coffee or a call! You can reach me on [Tw
     <img src="../assets/img/redbull.png">
     <img src="../assets/img/northkingdom.png">
     <img src="../assets/img/seedstars.png">
+    <img src="../assets/img/immersive-garden.jpg">
 </div>
-<!-- 
-        [img src:"static/images/redbull.png"/]
-        [img src:"static/images/seedstars.png"/]
-        [img src:"static/images/northkingdom.png"/] -->

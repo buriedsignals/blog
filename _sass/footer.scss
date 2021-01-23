@@ -84,3 +84,39 @@
     color: #4F4F4F;
     font-weight: lighter;
   }
+
+  @media only screen and (max-width: 600px)  { 
+    .footer {
+      min-height: 265px;
+    }
+    .footer-first-row {
+      height: initial;
+      margin-top: 25px;
+    }
+    .footer-second-row {
+      margin-top: 10px;
+      height: initial;
+      margin-top: 15px;
+    }
+    .footer-social-icons {
+      position: initial;
+      display: flex;
+      justify-content: center;
+    }
+    .substack-embed {
+      position: initial;
+    }
+    .footer-right {
+      position: initial;
+      width: initial;
+      a {
+        font-size: 24px;
+      }
+    }
+    .footer {
+      text-align: center;
+    }
+    .footer-slogan {
+      display: none;
+    }
+  }
