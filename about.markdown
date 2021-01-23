@@ -46,10 +46,13 @@ permalink: /about/
 
 # About
 
+## This blog
+Buried Signals is an outlet for technical and creative experiments in visual storytelling. It's a great reason to play around with new ideas while justifying frequent exploration of literature and science. I write about anything orbiting my cognitive space: inquiries into geopolitics, philosophy, physics or fiction. 
+
 ## Who, me?
-I’m a creative producer and aspiring visual journalist, occasionally taking on consulting work for companies and non-profits - you can read more about that [here](/consulting).
-I’m a co-founder of the non-profit parkour academies [Wallrunners](wallrunners.org). Past gigs have found me working with Red Bull, Immersive Garden, North Kingdom as
-a producer or content creator. I started out by making [documentaries](redbull.com/wallrunners) and [films](https://vimeo.com/145770250). 
+I’m a creative producer and aspiring visual journalist. Accasionally I do consulting work for companies and non-profits, you can read more about that [here](/consulting). As a co-founder of the non-profit [Wallrunners](wallrunners.org) I spend time building parkour academies where they're most needed. 
+
+Past gigs have found me working as an integrated producer or content creator with Red Bull, Immersive Garden and North Kingdom. I started out by making [documentaries](redbull.com/wallrunners) and [films](https://vimeo.com/145770250). 
 
 Feel free to start a conversation anytime, I'm on Telegram (@buriedsignals) and [Twitter](twitter.com/buriedsignals).
 
