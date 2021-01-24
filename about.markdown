@@ -23,7 +23,7 @@ not_index: true
         .attr("stroke-width", 3)
         .attr("stroke-linejoin", "round")
       .selectAll("path")
-      .data(["cyan", "magenta", "yellow"])
+      .data(["cyan", "blue", "magenta"])
       .enter().append("path")
         .attr("stroke", function(d) { return d; })
         .style("mix-blend-mode", "darken")

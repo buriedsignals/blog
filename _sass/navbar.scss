@@ -8,13 +8,16 @@ border-bottom: 1px solid #cecece;
 
 .navbar-logo {
 margin-left: 20px;
-}
-
-.navbar-logo a {
+a {
 text-decoration: none;
 color: black;
 font-size: 25px;
 position: relative;
+    span {
+        color: #0CAFFF;
+        font-size: 28px;
+    }
+}
 }
 
 .navbar-logo a:hover:after {
