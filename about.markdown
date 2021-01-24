@@ -50,14 +50,14 @@ not_index: true
 ## This blog
 Buried Signals is an outlet for technical and creative experiments in visual storytelling. It's a wonderful excuse to explore new ideas while justifying continuous research in literature and science. I write about anything orbiting my cognitive space: investigations into geopolitics, philosophy, physics or fiction. 
 
-## Who, me?
+## Yours truly
 I’m a creative producer and aspiring visual journalist. Accasionally I do consulting work for companies and non-profits (you can read more about that [here](/consulting)). As a co-founder of the non-profit [Wallrunners](wallrunners.org) I spend time building parkour academies where they're most needed. 
 
 Past gigs have found me working as an integrated producer or content creator with Red Bull, Immersive Garden and North Kingdom. I started out by making [documentaries](redbull.com/wallrunners) and [films](https://vimeo.com/145770250). 
 
 Feel free to start a conversation anytime, I'm on Telegram (@buriedsignals) and [Twitter](twitter.com/buriedsignals).
 
-## Opinions on journalism
+## Journalism manifesto
 I'm an advocate of [Gonzo journalism](en.wikipedia.org/wiki/Gonzo_journalism) as a framework to abstain from false claims of objectivity. 
 Also trying to [keep my identity small](www.paulgraham.com/identity.html) (inspired by [Kevin Simler’s](meltingasphalt.com/about/) manifesto). 
 
