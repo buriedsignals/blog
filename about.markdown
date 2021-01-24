@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+not_index: true
 ---
 
 <div id="d3-header">
@@ -47,27 +48,25 @@ permalink: /about/
 # About
 
 ## This blog
-Buried Signals is an outlet for technical and creative experiments in visual storytelling. It's a great reason to play around with new ideas while justifying frequent exploration of literature and science. I write about anything orbiting my cognitive space: inquiries into geopolitics, philosophy, physics or fiction. 
+Buried Signals is an outlet for technical and creative experiments in visual storytelling. It's a wonderful excuse to explore new ideas while justifying continuous research in literature and science. I write about anything orbiting my cognitive space: investigations into geopolitics, philosophy, physics or fiction. 
 
 ## Who, me?
-I’m a creative producer and aspiring visual journalist. Accasionally I do consulting work for companies and non-profits, you can read more about that [here](/consulting). As a co-founder of the non-profit [Wallrunners](wallrunners.org) I spend time building parkour academies where they're most needed. 
+I’m a creative producer and aspiring visual journalist. Accasionally I do consulting work for companies and non-profits (you can read more about that [here](/consulting)). As a co-founder of the non-profit [Wallrunners](wallrunners.org) I spend time building parkour academies where they're most needed. 
 
 Past gigs have found me working as an integrated producer or content creator with Red Bull, Immersive Garden and North Kingdom. I started out by making [documentaries](redbull.com/wallrunners) and [films](https://vimeo.com/145770250). 
 
 Feel free to start a conversation anytime, I'm on Telegram (@buriedsignals) and [Twitter](twitter.com/buriedsignals).
 
 ## Opinions on journalism
-Advocating [Gonzo journalism](en.wikipedia.org/wiki/Gonzo_journalism) as a framework to abstain from false claims of objectivity. 
+I'm an advocate of [Gonzo journalism](en.wikipedia.org/wiki/Gonzo_journalism) as a framework to abstain from false claims of objectivity. 
 Also trying to [keep my identity small](www.paulgraham.com/identity.html) (inspired by [Kevin Simler’s](meltingasphalt.com/about/) manifesto). 
 
-I am committed to working within the tenets of Jim Lehrer’s 
-[journalism principles](www.pbs.org/newshour/politics/jim-lehrer-in-his-own-words). My personal opinions are clearly labeled, 
-fiction and philosophy essays obviously reflect my own views.
+Determined to conduct my work within the tenets of Jim Lehrer’s 
+[journalism principles](www.pbs.org/newshour/politics/jim-lehrer-in-his-own-words). My personal opinions are clearly labeled, fiction and philosophy essays obviously reflect my own views.
 
-Someday perhaps these essays will contribute in the struggle against disinformation, in the meantime I take great pleasure in 
-the daily pursuit of truth and progress in the craft.
+My hope is that someday these essays might contribute in the struggle against disinformation, in the meantime I take great pleasure in the daily pursuit of truth and practicing the craft.
 
-A self-imposed manifesto for these essays :
+A self-imposed manifesto :
 - Communicate in a clear and concise manner
 - Seek to understand the opposing viewpoint and give readers access to both perspectives
 - Fight stereotypes, fear-mongering and bipartisan polarisation

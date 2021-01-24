@@ -29,6 +29,9 @@ body {
 .post-wrapper {
   width: 65%;
   margin: 50px auto 50px auto;
+  p {
+    font-size: 18px;
+  }
 }
 
 .post-title {
@@ -65,10 +68,16 @@ body {
   .consulting-logos {
     flex-wrap: wrap;
   }
+  .post-wrapper {
+    width: 85%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px)  { 
   .page-wrapper {
+    width: 75%;
+  }
+  .post-wrapper {
     width: 75%;
   }
 }

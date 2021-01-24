@@ -11,12 +11,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
-    {% if page.title == null %}
-        <script src="./d3.v5.js"></script>
-    {% elsif page.title == "About" %}
-        <script src="../d3.v5.js"></script>
-    {% endif %}
-    <script defer src="../css/fontawesome-free/js/brands.js"></script>
-    <script defer src="../css/fontawesome-free/js/solid.js"></script>
-    <script defer src="../css/fontawesome-free/js/fontawesome.js"></script>
+    <script src="{{ 'd3.v5.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ 'css/fontawesome-free/js/brands.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ 'css/fontawesome-free/js/solid.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ 'css/fontawesome-free/js/fontawesome.js' | prepend: site.baseurl }}"></script>
 </head>
