@@ -16,7 +16,7 @@ By working with me you also gain access to a network of experienced artists, des
 
 I’ve been interested in the web, film and storytelling since I was young. Crowdfunding my first documentary about adventurers on Everest and in the arctic when I was 19, moving on to work as a producer and filmmaker for Red Bull and North Kingdom. Over the past decade I've grown from operating as a solo-shooter and photographer to leading multi-disciplinary teams on film, web and XR productions. 
 
-I’m always happy to meet people over coffee or a call! You can reach me on [Twitter](https://twitter.com/buriedsignals), [Linkedin](https://www.linkedin.com/in/tomvaillant/), or by [email](mailto: tom.vaillant@icloud.com).
+I’m always happy to meet people over coffee or a call! You can reach me on [Twitter](https://twitter.com/buriedsignals), [Linkedin](https://www.linkedin.com/in/tomvaillant/), or by [email](mailto: tom.vaillant@hey.com).
 
 <div class="consulting-logos">
     <img src="../assets/img/redbull.png">
