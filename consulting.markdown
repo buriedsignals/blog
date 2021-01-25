@@ -8,7 +8,7 @@ permalink: /consulting/
 
 ## Hello there!
     
-For the past four years I’ve dedicated a day a week to my practice as an independent consultant, helping businesses and non-profits build content production and digital marketing capabilities. I specialize in content and platform strategy, designing and implementing roadmaps.
+For the past four years I’ve dedicated a day a week to my practice as an independent consultant, helping businesses and non-profits build content production and digital marketing capabilities. I specialize in content and platform strategy, from early-stage roadmap design to implementation and distribution.
 
 The focus and length of these collaborations varies widely depending on long-term strategic priorities. We decide together whether your needs can be solved with swift design solutions or regular consulting where I join the team for a pre-determined period of time. 
 
