@@ -1,131 +1,12 @@
 ---
 layout: default
 ---
-<div id="d3-header">
-   <script type="text/javascript">
-   const bounds = document.getElementById("d3-header");
-   var w = 500;
-   var h = 250;
 
-//Original data
-var dataset = {
-    nodes: [
-    { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { },
-    { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }
-    ],
-    edges: [
-    { source: 0, target: 1 },
-    { source: 0, target: 2 },
-    { source: 0, target: 4 },
-    { source: 1, target: 5 },
-    { source: 2, target: 5 },
-    { source: 2, target: 5 },
-    { source: 3, target: 4 },
-    { source: 5, target: 8 },
-    { source: 5, target: 9 },
-    { source: 6, target: 7 },
-    { source: 6, target: 10 },
-    { source: 7, target: 8 },
-    { source: 7, target: 5 },
-    { source: 8, target: 9 },
-    { source: 8, target: 10 },
-    { source: 8, target: 1 },
-    { source: 10, target: 9 },
-    { source: 10, target: 8 },
-    { source: 11, target: 9 },
-    { source: 12, target: 11 },
-    { source: 13, target: 12 },
-    { source: 14, target: 13 },
-    { source: 15, target: 12 },
-    { source: 16, target: 9 },
-    { source: 17, target: 16 },
-    { source: 17, target: 15 },
-    { source: 17, target: 14 },
-    { source: 18, target: 17 },
-    { source: 18, target: 19 },
-    { source: 19, target: 20 },
-    { source: 19, target: 12 },
-    { source: 19, target: 13 },
-    { source: 20, target: 21 },
-    { source: 20, target: 22 },
-    { source: 20, target: 23 },
-    { source: 21, target: 22 },
-    { source: 22, target: 23 }
-    ]
-};
-
-//Initialize a simple force layout, using the nodes and edges in dataset
-var force = d3.forceSimulation(dataset.nodes)
-            .force("charge", d3.forceManyBody())
-            .force("link", d3.forceLink(dataset.edges))
-            .force("center", d3.forceCenter().x(w/2).y(h/2));
-
-var colors = d3.scaleOrdinal(d3.schemeBlues[9]);
-//Create SVG element
-var svg = d3.select(bounds)
-        .append("svg")
-        .attr("width", w)
-        .attr("height", h);
-
-//Create edges as lines
-var edges = svg.selectAll("line")
-    .data(dataset.edges)
-    .enter()
-    .append("line")
-    .style("stroke", "#ccc")
-    .style("stroke-width", 1);
-
-//Create nodes as circles
-var nodes = svg.selectAll("circle")
-    .data(dataset.nodes)
-    .enter()
-    .append("circle")
-    .attr("r", 6)
-    .style("fill", function(d, i) {
-    return colors(i);
-    })
-    .call(d3.drag()  //Define what to do on drag events
-    .on("start", dragStarted)
-    .on("drag", dragging)
-    .on("end", dragEnded));
-
-//Every time the simulation "ticks", this will be called
-force.on("tick", function() {
-
-    edges.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-    nodes.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
-
-});
-
-//Define drag event functions
-function dragStarted(d) {
-    if (!d3.event.active) force.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-}
-
-function dragging(d) {
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
-}
-
-function dragEnded(d) {
-    if (!d3.event.active) force.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-}
-   </script>
-</div>
 <div class="articles-wrapper">
    <h4>Visual experiments in journalism and fiction.</h4>
    <hr class="soft-separator">
    {% for post in site.posts %}
-      <div class="article-list-item">
+      <a href="{{ post.url }}" class="article-list-item">
          <div class="article-labels">
             {% if post.interactive %}
                <div class="article-tag">
@@ -136,16 +17,14 @@ function dragEnded(d) {
                   <span>{{ post.category }}</span>
                </div>
          </div>
-         <a href="{{ post.url }}">
             <h2>{{ post.title }}</h2>
-         </a>
+         {% if post.contributor %}
          <div class="article-contributors"> {{ post.contributor }} </div>
-         <div class="article-description"> {{ post.description }} <a href="{{ post.url }}">Coming soon...</a></div>
-      </div>
+         {% endif %}
+         <div class="article-description"> {{ post.description }}</div>
+      </a>
    {% endfor %}
 </div>
-
-
 
 
 
