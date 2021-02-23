@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Yemen and the Saudi-Iran Proxy War."
+title:  "Yemen : the full story."
 date:   2021-01-22 13:33:22 +0100
 category: journalism
 contributor: "ACLED"
 interactive: true 
-description: "Coming soon, an essay about the proxy war in Yemen."
+description: "Coming soon, an essay about Yemen."
 ---
 Lorem ipsum.

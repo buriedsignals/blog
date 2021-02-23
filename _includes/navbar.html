@@ -56,31 +56,8 @@
                 </defs>
             </svg>
             </a>
-            <div class="three col">
-                <div class="hamburger" id="hamburger" onclick="toggleSideDrawer()">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-            </div>
+            <li><a href="/about/">About</a></li>
+            <li class="mobile-cancel"><a href="https://buriedsignals.substack.com/welcome" target="_blank">Subscribe</a></li>     
         </div>
     </div>
-    <div id="side-drawer" class="overlay">
-        <nav class="overlay-menu">
-            <ul>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/now">Now</a></li>
-                <li><a href="/consulting">Consulting</a></li>
-                <li><a href="https://buriedsignals.substack.com/welcome" target="_blank">Subscribe</a></li>
-            </ul>
-        </nav>
-    </div>
 </div>  
-<script>
-    function toggleSideDrawer() {
-        const menuIcon = document.getElementById("hamburger");
-        const sideDrawer = document.getElementById("side-drawer");
-        hamburger.classList.toggle("is-active");
-        sideDrawer.classList.toggle("open");
-    }
-</script>
