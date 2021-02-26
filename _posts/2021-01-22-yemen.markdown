@@ -2,6 +2,7 @@
 layout: post
 title:  "Yemen : the full story."
 date:   2021-01-22 13:33:22 +0100
+img: "/assets/img/yemen.jpg"
 category: journalism
 interactive: true 
 description: "A long-form visual essay about Yemen is coming soon."

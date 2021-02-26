@@ -30,9 +30,6 @@ transition: .35s;
 
 .navbar-right {
 display: inline-flex;
-margin-right: 30px;
-width: 170px;
-justify-content: space-between;
 align-items: center;
 }
 
@@ -40,20 +37,20 @@ align-items: center;
     list-style: none;
 }
 
-.navbar-right a, .navbar-right svg {
-height: 35px;
-color: black;
-width: 20px;
-text-decoration: none;
+.navbar-right a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.navbar-right svg {
+    height: 35px;
+    width: 20px;
 }
 
 @media screen and (max-width: 480px) {
     .mobile-cancel {
         display: none;
-    }
-    .navbar-right {
-        width: 80px;
-        justify-content: space-between;
-        margin-right: 20px;
     }
 }

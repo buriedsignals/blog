@@ -3,29 +3,49 @@ body {
     margin: 0 0;
     a {
       text-decoration: none;
-      color: #1F75FE;
+      color: inherit;
       -webkit-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
-      &:hover {
-        color: #0CAFFF;
-      }
     }
 }
 
+
+// PAGES
 .page-content {
-  min-height: calc(100vh - 165px);
+  min-height: calc(100vh - 250px);
 }
 
 .page-wrapper {
-  width: 50%;
-  margin: 10px auto 50px auto;
-  h1 {
-    text-align: center;
-    padding-bottom: 30px;
-  }
+  width: 70%;
+  text-align: center;
+  margin: 70px auto;
 }
 
+.page-wrapper p {
+  font-size: 18px;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+.page-wrapper li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.page-wrapper h1 {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
+
+.page-wrapper h2 {
+  text-align: left;
+}
+// POSTS
 .post-wrapper {
   width: 65%;
   margin: 50px auto 50px auto;
@@ -48,6 +68,8 @@ body {
   text-align: center;
 }
 
+// 
+
 @media only screen and (max-width: 600px) { 
   .navbar-logo a {
     font-size: 22px;
@@ -65,9 +87,6 @@ body {
       padding-bottom: 0;
     }
   }
-  .consulting-logos {
-    flex-wrap: wrap;
-  }
   .post-wrapper {
     width: 85%;
   }
@@ -80,8 +99,4 @@ body {
   .post-wrapper {
     width: 75%;
   }
-}
-
-.profile-image {
-  width: 100%;
 }
