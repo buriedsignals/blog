@@ -1,5 +1,6 @@
 ---
 layout: default
+image: BS-thumbnail.png
 ---
 
 <div>
