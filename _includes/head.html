@@ -11,23 +11,20 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     
-        <!-- Primary Meta Tags -->
-    <meta name="title" content="Buried Signals">
-    <meta name="description" content="Visual experiments in journalism and fiction.">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://buriedsignals.com/">
-    <meta property="og:title" content="Buried Signals">
-    <meta property="og:description" content="Visual experiments in journalism and fiction.">
-    <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.image }}">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://buriedsignals.com/">
-    <meta property="twitter:title" content="Buried Signals">
-    <meta property="twitter:description" content="Visual experiments in journalism and fiction.">
-    <meta property="twitter:image" content="/assets/img/BS-thumbnail.png">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}
+        {{ page.description | strip_html | strip_newlines | truncate: 160 }}
+      {% else %}
+        {{ site.description }}
+      {% endif %}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    {% if page.image %}
+        <meta property="og:image" content="{{page.image}}" />
+        <meta name="twitter:image" content="{{page.image}}" />
+    {% else %}
+        <meta property="og:image" content="https://raw.githubusercontent.com/buriedsignals/portfolio/main/src/images/projects/BS-thumbnail.png" />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/buriedsignals/portfolio/main/src/images/projects/BS-thumbnail.png" />
+    {% endif %}
 
     <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
     <script src="{{ 'd3.v5.js' | prepend: site.baseurl }}"></script>
