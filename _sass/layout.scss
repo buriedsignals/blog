@@ -12,6 +12,11 @@ body {
 
 
 // PAGES
+
+.post-content {
+  min-height: 100vh;
+}
+
 .page-content {
   min-height: calc(100vh - 250px);
 }
@@ -45,6 +50,7 @@ body {
 .page-wrapper h2 {
   text-align: left;
 }
+
 // POSTS
 .post-wrapper {
   width: 65%;
@@ -54,7 +60,7 @@ body {
   }
 }
 
-.page-wrapper a {
+.page-wrapper p a {
   font-weight: bold;
   color: #1F75FE;
 }
@@ -73,7 +79,21 @@ body {
   text-align: center;
 }
 
-// 
+.idyll-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.idyll-iframe {
+  position: absolute;
+  border: none;
+  top:0;
+  left:0;
+  width:100%;
+  min-height: calc(100vh);
+}
+
+// MEDIA QUERIES
 
 @media only screen and (max-width: 600px) { 
   .navbar-logo a {
@@ -104,5 +124,14 @@ body {
   }
   .post-wrapper {
     width: 75%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .page-wrapper {
+    width: 50%;
+  }
+  .post-wrapper {
+    width: 50%;
   }
 }

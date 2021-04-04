@@ -9,7 +9,7 @@ not_index: true
    <script type="text/javascript">
    const bounds = document.getElementById("d3-header");
    var svg = d3.select(bounds).append('svg');
-   var width = bounds.getBoundingClientRect().width;
+   var width = bounds.getBoundingClientRect().width * 0.8;
    var height = 250;
 
     svg.attr('width', width);
@@ -33,7 +33,7 @@ not_index: true
               .angle(function(a) { return a; })
               .radius(function(a) {
                 var t = d3.now() / 1000;
-                return width / 8 + Math.cos(a * 8 - i * 2 * Math.PI / 3 + t) * Math.pow((1 + Math.cos(a - t)) / 2, 3) * width / 50;
+                return width / 8 + Math.cos(a * 8 - i * 2 * Math.PI / 3 + t) * Math.pow((1 + Math.cos(a - t)) / 2, 3) * width / 100;
               });
         });
 

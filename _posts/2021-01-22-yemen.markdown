@@ -7,4 +7,6 @@ category: journalism
 interactive: true 
 description: "A long-form visual essay about Yemen is coming soon."
 ---
-Lorem ipsum.
+
+<iframe class="idyll-iframe" src="https://idyll.pub/post/yemen-fd7d76b7b4453a68a26fdcff/" allowfullscreen height="100%" width="100%">
+</iframe>

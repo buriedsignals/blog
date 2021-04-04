@@ -6,13 +6,9 @@
   <body>
     {% include navbar.html %} 
     <div class="page-content">
-      {% if page.layout == "default" %}
       <div class="page-wrapper">
         {{ content }}
       </div>
-      {% else %}
-        {{ content }}
-      {% endif %}
     </div>
     {% include waves.html %}
     {% include footer.html %}
