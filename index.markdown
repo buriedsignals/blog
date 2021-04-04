@@ -1,13 +1,15 @@
 ---
 layout: default
 image: BS-thumbnail.png
+title: Buried Signals
+description: Visual experiments in journalism and fiction.
 ---
 
 <div>
    <h1>Visual experiments in journalism and fiction.</h1>
    {% for post in site.posts %}
       <a href="{{ post.url }}" class="article">
-         <img src="{{ post.img }}" alt="" />
+         <img src="{{ post.image }}" alt="" />
          <div class="article-details">
             <div class="article-labels">
                {% if post.interactive %}
