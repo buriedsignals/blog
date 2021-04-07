@@ -20,16 +20,16 @@
 
 title: Buried Signals
 email: tom@wallrunners.org
-description: >- # this means to ignore newlines until "baseurl:"
-  Visual experiments in journalism and fiction.
+description: Visual experiments in journalism and fiction.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://buriedsignals.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: buriedsignals
 github_username:  buriedsignals
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 sass:
   input_file: css/styles.scss

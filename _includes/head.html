@@ -11,7 +11,11 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     
-    <meta property="og:title" content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
+    {% if page.title %}
+        <meta property="og:title" content="{{ page.title }}">
+    {% else %}
+    <meta property="og:title" content="{{ site.title }}">
+    {% endif %}
     <meta property="og:description" content="{{ page.description }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     {% if page.image %}
@@ -27,4 +31,5 @@
     <script defer src="{{ 'css/fontawesome-free/js/brands.js' | prepend: site.baseurl }}"></script>
     <script defer src="{{ 'css/fontawesome-free/js/solid.js' | prepend: site.baseurl }}"></script>
     <script defer src="{{ 'css/fontawesome-free/js/fontawesome.js' | prepend: site.baseurl }}"></script>
+    {% seo %}
 </head>
