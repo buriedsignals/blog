@@ -1,8 +1,8 @@
 ---
 layout: default
-image: "/assets/img/BS-thumbnail.png"
-title: "Buried Signals"
-description: "Visual experiments in journalism and fiction."
+title: Buried Signals
+description: Visual experiments in journalism and fiction.
+image: /assets/img/BS-thumbnail.png
 ---
 
 <div>

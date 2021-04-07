@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Yemen, the full story."
+title:  Yemen, the full story
+description: A not-so-short history of Yemen
 date:   2021-01-22 13:33:22 +0100
-image: "/assets/img/yemen.jpg"
+image: /assets/img/yemen.jpg
 category: journalism
 interactive: true 
-description: "A not-so-short history of Yemen."
 ---
 
 <iframe class="idyll-iframe" src="https://idyll.pub/post/yemen-fd7d76b7b4453a68a26fdcff/" allowfullscreen height="100%" width="100%">
