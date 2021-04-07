@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Buried Signals
+tagline: Visual experiments
+description: A visual journalism and fiction blog about pretty much anything.
 email: tom@wallrunners.org
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://buriedsignals.com" # the base hostname & protocol for your site, e.g. http://example.com
