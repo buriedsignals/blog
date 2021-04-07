@@ -10,25 +10,11 @@
     <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
-    {% if page.title %}
-        <meta property="og:title" content="{{ page.title }}">
-    {% else %}
-        <meta property="og:title" content="{{ site.title }}">
-    {% endif %}
-    <meta property="og:description" content="{{ page.description }}">
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    {% if page.image %}
-        <meta property="og:image" content="{{ page.image }}" />
-        <meta name="twitter:image" content="{{ page.image }}" />
-    {% else %}
-        <meta property="og:image" content="https://raw.githubusercontent.com/buriedsignals/portfolio/main/src/images/projects/BS-thumbnail.png" />
-        <meta name="twitter:image" content="https://raw.githubusercontent.com/buriedsignals/portfolio/main/src/images/projects/BS-thumbnail.png" />
-    {% endif %}
 
     <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
     <script src="{{ 'd3.v5.js' | prepend: site.baseurl }}"></script>
     <script defer src="{{ 'css/fontawesome-free/js/brands.js' | prepend: site.baseurl }}"></script>
     <script defer src="{{ 'css/fontawesome-free/js/solid.js' | prepend: site.baseurl }}"></script>
     <script defer src="{{ 'css/fontawesome-free/js/fontawesome.js' | prepend: site.baseurl }}"></script>
+    {% seo %}
 </head>
