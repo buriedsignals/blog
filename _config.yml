@@ -33,6 +33,7 @@ github_username:  buriedsignals
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 sass:
   input_file: css/styles.scss
