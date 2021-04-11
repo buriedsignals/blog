@@ -5,8 +5,9 @@ description: The Ambassador's Daughter
 date:   2021-01-22 13:33:22 +0100
 image: /assets/img/stella.jpg
 category: fiction
+idyll: true
 interactive: false 
 ---
 
-<iframe class="idyll-iframe" src="https://idyll.pub/post/stella_1-65f57118b1f58a332968bc5f/" allowfullscreen height="100%" width="100%">
+<iframe class="idyll-iframe" src="https://idyll.pub/post/stella1-a06c93806d467f58e0c6235c/" allowfullscreen height="100%" width="100%">
 </iframe>
