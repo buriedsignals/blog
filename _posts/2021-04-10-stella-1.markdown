@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Interstella
-description: The Ambassador's Daughter
+title:  Interstella - Chapter I
+description: A short fiction story about a Galactic Ambassador's daughter sent to Earth to meet mankind and confirm our ability to join the Cosmic Society.
 date:   2021-01-22 13:33:22 +0100
-image: /assets/img/stella.jpg
+image: /assets/img/space-3.jpg
 category: fiction
 idyll: true
 interactive: false 
