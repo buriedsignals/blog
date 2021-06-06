@@ -11,16 +11,6 @@ image: /assets/img/BS-thumbnail.png
       <a href="{{ post.url }}" class="article">
          <img src="{{ post.image }}" alt="" />
          <div class="article-details">
-            <div class="article-labels">
-               {% if post.interactive %}
-                  <div class="article-tag">
-                     <span>interactive</span>
-                  </div>
-               {% endif %}
-                  <div class="article-tag">
-                     <span>{{ post.category }}</span>
-                  </div>
-            </div>
                <h2>{{ post.title }}</h2>
             {% if post.contributor %}
             <div class="article-contributors"> {{ post.contributor }} </div>

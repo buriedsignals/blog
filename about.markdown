@@ -45,28 +45,31 @@ not_index: true
    </script>
 </div>
 
-# About
 
-## This blog
-Buried Signals is an outlet for technical and creative experiments in visual storytelling. It's a wonderful excuse to explore new ideas while justifying continuous research in literature and science. I write about anything orbiting my cognitive space: investigations into geopolitics, philosophy, physics or fiction. 
+## The Studio
 
-Feel free to start a conversation anytime, I'm on [Telegram](https://t.me/buriedsignals) and [Twitter](twitter.com/buriedsignals).
+### We're a creative studio specialised in visual essays and interactive documentaries.
 
-## Journalism manifesto
-I'm an advocate of [Gonzo journalism](en.wikipedia.org/wiki/Gonzo_journalism) as a framework to abstain from false claims of objectivity. 
-Also trying to [keep my identity small](www.paulgraham.com/identity.html) (inspired by [Kevin Simler’s](meltingasphalt.com/about/) manifesto). 
+We build choice-driven narratives in journalism, combining open-source investigative techniques with digital expertise to produce experimental films or long-form articles using 3D and data visualisation.
 
-Determined to conduct my work within the tenets of Jim Lehrer’s 
-[journalism principles](www.pbs.org/newshour/politics/jim-lehrer-in-his-own-words). My personal opinions are clearly labeled, fiction and philosophy essays obviously reflect my own views.
+Interested in working with us? Send us <a href="mailto:tom@buriedsignals.com">an email</a>.
 
-My hope is that someday these essays might contribute in the struggle against disinformation, in the meantime I take great pleasure in the daily pursuit of truth and practicing the craft.
+## The Publication
+Buried Signals is an outlet for technical and creative experiments in visual storytelling, we use it as a platform to explore strange ideas that inevitably require continuous research and learning. Our priority is to visualise investigative journalism, philosophical essays and experimental physics. 
 
-A self-imposed manifesto :
+Start a conversation on [Twitter](twitter.com/buriedsignals).
+
+## Manifesto
+To abstain from false claims of objectivity we try to [keep our identities small](www.paulgraham.com/identity.html) and apply the tenets of Jim Lehrer’s 
+[journalism principles](www.pbs.org/newshour/politics/jim-lehrer-in-his-own-words).
+
+We aim to :
 - Communicate in a clear and concise manner
 - Seek to understand the opposing viewpoint and give readers access to both perspectives
 - Fight stereotypes, fear-mongering and bipartisan polarisation
 - Controversy for it’s own sake is entertainment
-- My writing should and can be challenged
+- Our writing should and can be challenged
+- Opinions are clearly labeled
 - Collaborate with experts, identify uncertainty when it exists
 - Curate theoretical or operational solutions to the problem
 - Sources are verified and always accessible
@@ -74,5 +77,5 @@ A self-imposed manifesto :
 
 <div class="pro-truth-logo">
     <a href="http://ProTruthPledge.org"><img style="width: 100px; height: 100px;" src="https://www.protruthpledge.org/hotlink-ok/ptpBacked.gif"></a><br>
-    I signed the <a href="http://ProTruthPledge.org">Pro-Truth Pledge:</a><br>please hold me accountable.
+    We signed the <a href="http://ProTruthPledge.org">Pro-Truth Pledge:</a><br> hold us accountable.
 </div>

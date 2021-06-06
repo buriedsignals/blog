@@ -3,18 +3,18 @@
     border-top: 1px solid #ececec;
     background-color: #ececec;
     min-height: 265px;
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .footer-first-row {
-    margin-bottom: 25px;
   }
   
   .substack-embed {
     padding: 0 10px;
+    margin-top: 10px;
   }
   
   .substack-embed iframe {
@@ -26,6 +26,7 @@
   }
   
   .footer-social-icons {
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;

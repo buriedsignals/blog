@@ -24,22 +24,27 @@ body {
 .page-wrapper {
   width: 70%;
   text-align: center;
-  margin: 70px auto;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 65px;
 }
 
 .page-wrapper p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.4em;
   text-align: justify;
 }
 
 .page-wrapper li {
-  font-size: 18px;
+  font-size: 22px;
+  line-height: 1.8;
   text-align: left;
 }
 
 .page-wrapper h1 {
   font-weight: 400;
+  // text-decoration: underline;
   font-size: 32px;
   text-align: center;
   margin-top: 30px;
@@ -47,8 +52,15 @@ body {
   line-height: 1.6em;
 }
 
+.page-wrapper h3 {
+  font-size: 34px;
+  font-weight: 500;
+  text-align: left;
+}
+
 .page-wrapper h2 {
   text-align: left;
+  font-size: 28px;
 }
 
 // POSTS
@@ -99,22 +111,48 @@ body {
   .navbar-logo a {
     font-size: 22px;
   }
+
   .page-content {
     min-height: calc(100vh - 200px);
   }
+
   #d3-header {
     display: none;
   }
+
   .page-wrapper {
     width: 85%;
     margin: 25px auto 50px auto;
+    padding-top: 25px;
     h1 {
       padding-bottom: 0;
       font-size: 22px;
+      text-align: left;
     }
   }
+
+  .page-wrapper h3 {
+    font-size: 28px;
+  }
+
+  .page-wrapper h2 {
+    font-size: 26px;
+  }
+
+  .page-wrapper p {
+    font-size: 20px;
+  }
+
+  .page-wrapper li {
+    font-size: 20px;
+  }
+
   .post-wrapper {
     width: 85%;
+  }
+
+  .article h2 {
+    font-size: 22px;
   }
 }
 
