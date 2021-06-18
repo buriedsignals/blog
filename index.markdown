@@ -2,7 +2,7 @@
 layout: default
 title: Buried Signals
 description: Visual experiments in journalism and fiction.
-image: /assets/img/BS-thumbnail.png
+image: /assets/img/og_image.png
 ---
 
 <div>
