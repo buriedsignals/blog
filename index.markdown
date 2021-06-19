@@ -6,7 +6,7 @@ image: /assets/img/og_image.png
 ---
 
 <div>
-   <h1>Visual experiments in journalism and fiction.</h1>
+   <h1>A digital repository of visual experiments in journalism.</h1>
    {% for post in site.posts %}
       <a href="{{ post.url }}" class="article">
          <img src="{{ post.image }}" alt="" />
